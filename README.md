@@ -14,4 +14,4 @@
   <li>Not yet.</li
 </ul>
 </br>
-<p>© <a href="https://chris.friemann.nl/" action="_blank">Chris Friemann</a> and <a href="https://jelmerimmeker.com/" action="_blank">Jelmer Immeker</a></p>
+<p>© <a href="https://chris.friemann.nl/" target="_blank">Chris Friemann</a> and <a href="https://jelmerimmeker.com/" target="_blank">Jelmer Immeker</a></p>
