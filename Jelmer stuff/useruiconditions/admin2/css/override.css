@@ -1,0 +1,8 @@
+#override-bootstrap input[type="file"]{
+    display: none;
+    color: peru;
+}
+
+#override-bootstrap .container {
+    background-color: red;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <title>Home | UI-Conditions</title>
+    <link rel="shortcut icon" type="image/png" href="afbeeldingen/">
+    <script type="text/javascript" src="time.js"></script>
+    <script type="text/javascript" src="sideMenu.js"></script>
+</head>
+<body onload="renderTime();">
+<header>
+
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+     </div>
+
+    <div class="left-area">
+    <h3>UI-<span>Conditions</span></h3>
+    </div>
+        <form class="btn" action="includes/logout.inc.php" method="post">
+            <button class="btn" type="submit" name="logout-submit">Logout</button>    
+        </form>
+</header>
+
+<section id="sideMenu" class="sideMenu">
+    <div class="center" style="text-align: center;">
+    <img src="afbeeldingen/pf2.jpg" alt="profile-img" class="profile_image">
+    <span><h4>Folkje Immeker</span></h4>
+</div>
+    <nav>
+    <a href="#" class="navactive"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+    <a href="#"><i class="fas fa-cogs"></i><span>Maintenance plan</span></a>
+    <a href="#"><i class="fas fa-calendar-alt"></i><span>Commissions</span></a>
+    <a href="#"><i class="fas fa-euro-sign"></i><span>Finances</span></a>
+    <a href="#"><i class="fas fa-folder"></i><span>Documents</span></a>
+    <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+
+    
+    
+</nav> 
+
+<div class="center" style="text-align: center;">
+<div id="Clock/time" class="current-timedate" >
+    <p><span id="clockDisplay"></span></p>
+<div class="current-time">
+    <p><span id="datetime"></span></p>
+</div>
+</div>
+</div>
+
+
+</section> 
+<div class="content">
+<div class="content-bg"></div>
+</div>
+
+
+
+
+</body>
+</html> 
+</html> 
+
+
+
+
